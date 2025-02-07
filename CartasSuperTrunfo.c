@@ -9,17 +9,23 @@
 int main() {
     printf("Desafio Super Trunfo\n");
          int codigo = 01;
-         char nome[30];
+         char cidade[30];
          float populacao;
          double area;
          float PIB;
          int turistico;
 
-printf("codigo: \n");
+printf("codigo: ");
 scanf("%d", &codigo);
 
-printf("nome: \n");
-scanf("%s", &nome);
+printf("cidade: ");
+scanf("%s", &cidade);
+
+printf("populacao: ");
+scanf("%f", &populacao);
+
+printf("area:");
+scanf("%2f", area);
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
