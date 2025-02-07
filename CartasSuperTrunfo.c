@@ -128,6 +128,114 @@ printf ("Pontos Turísticos: %.0f \n", turismo);
 printf ("\n");
 // FINAL DO PRIMEIRO ESTADO
 
+// 1° País - Estado B - 1° Cidade (01)
+// Coleta as informações de diferentes cidades deste país
+printf ("País: Brasil \n");
+printf ("Código da carta: B01 \n");
+
+printf ("População: ");
+scanf ("%f", &populacao);
+
+printf ("Área: ");
+scanf ("%f", &area);
+
+printf ("PIB: ");
+scanf ("%lf", &pib);
+
+printf ("Pontos Turísticos: ");
+scanf ("%f", &turismo);
+
+// Exibe as informações digitadas pelo usuário
+printf ("\n");
+printf ("País: %s \n", pais);
+printf ("Código da carta: B01 %s \n", codigo);
+printf ("População: %.3f \n", populacao);
+printf ("Área: %.0f km² \n", area);
+printf ("PIB: R$ %.3lf \n", pib);
+printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("\n");
+
+// 1° País - Estado B - 2° Cidade (02)
+// Coleta as informações de diferentes cidades deste país
+printf ("País: Brasil \n");
+printf ("Código da carta: B02 \n");
+
+printf ("População: ");
+scanf ("%f", &populacao);
+
+printf ("Área: ");
+scanf ("%f", &area);
+
+printf ("PIB: ");
+scanf ("%lf", &pib);
+
+printf ("Pontos Turísticos: ");
+scanf ("%f", &turismo);
+
+// Exibe as informações digitadas pelo usuário
+printf ("\n");
+printf ("País: %s \n", pais);
+printf ("Código da carta: B02 %s \n", codigo);
+printf ("População: %.3f \n", populacao);
+printf ("Área: %.0f km² \n", area);
+printf ("PIB: R$ %.3lf \n", pib);
+printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("\n");
+
+// 1° País - Estado B - 3° Cidade (03)
+// Coleta as informações de diferentes cidades deste país
+printf ("País: Brasil \n");
+printf ("Código da carta: B03 \n");
+
+printf ("População: ");
+scanf ("%f", &populacao);
+
+printf ("Área: ");
+scanf ("%f", &area);
+
+printf ("PIB: ");
+scanf ("%lf", &pib);
+
+printf ("Pontos Turísticos: ");
+scanf ("%f", &turismo);
+
+// Exibe as informações digitadas pelo usuário
+printf ("\n");
+printf ("País: %s \n", pais);
+printf ("Código da carta: B03 %s \n", codigo);
+printf ("População: %.3f \n", populacao);
+printf ("Área: %.0f km² \n", area);
+printf ("PIB: R$ %.3lf \n", pib);
+printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("\n");
+
+// 1° País - Estado B - 4° Cidade (04)
+// Coleta as informações de diferentes cidades deste país
+printf ("País: Brasil \n");
+printf ("Código da carta: B04 \n");
+
+printf ("População: ");
+scanf ("%f", &populacao);
+
+printf ("Área: ");
+scanf ("%f", &area);
+
+printf ("PIB: ");
+scanf ("%lf", &pib);
+
+printf ("Pontos Turísticos: ");
+scanf ("%f", &turismo);
+
+// Exibe as informações digitadas pelo usuário
+printf ("\n");
+printf ("País: %s \n", pais);
+printf ("Código da carta: B04 %s \n", codigo);
+printf ("População: %.3f \n", populacao);
+printf ("Área: %.0f km² \n ", area);
+printf ("PIB: R$ %.3lf \n", pib);
+printf ("Pontos Turísticos: %f \n", turismo);
+printf ("\n");
+// FINAL DO SEGUNDO ESTADO
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
