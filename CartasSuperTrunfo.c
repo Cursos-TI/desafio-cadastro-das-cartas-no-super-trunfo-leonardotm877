@@ -895,9 +895,7 @@ printf ("Pontos Turísticos: %.0f \n", turismo);
 printf ("\n");
 // FINAL DO OITAVO ESTADO
 
-return 0;
 
-}
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
