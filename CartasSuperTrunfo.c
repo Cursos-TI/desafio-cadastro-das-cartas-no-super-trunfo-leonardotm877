@@ -18,6 +18,8 @@ int main() {
     float area; // Variável para armazenar a área
     double pib; // Variável para armazenar o PIB
     float turismo; // Variável para armazenar os pontos turísticos
+    float pibPercapita; // Variável para armazenar o PIB per capita da cidade
+    float densidade; // Variável para armazenar a densidade populacional
 
 // 1° País - Estado A - 1° Cidade
 // Coleta as informações de diferentes cidades deste país
@@ -36,6 +38,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais);
@@ -44,6 +49,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 1° País - Estado A (Brasil) - 2° Cidade (02)
@@ -63,6 +70,9 @@ scanf ("%lf", &pib);
 printf("Pontos Turísticos: ");
 scanf("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais);
@@ -71,6 +81,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 1° País - Estado A (Brasil) - 3° Cidade (03)
@@ -90,6 +102,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais);
@@ -98,6 +113,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3f \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 1° País - Estado A (Brasil) - 4° Cidade (04)
@@ -117,6 +134,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais);
@@ -125,6 +145,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 // FINAL DO PRIMEIRO ESTADO
 
@@ -145,6 +167,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais);
@@ -153,6 +178,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 1° País - Estado B - 2° Cidade (02)
@@ -172,6 +199,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais);
@@ -180,6 +210,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 1° País - Estado B - 3° Cidade (03)
@@ -199,6 +231,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais);
@@ -207,6 +242,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 1° País - Estado B - 4° Cidade (04)
@@ -226,6 +263,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais);
@@ -234,6 +274,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n ", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 // FINAL DO SEGUNDO ESTADO
 
@@ -254,6 +296,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_1);
@@ -262,6 +307,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 2° País - Estado C - 2° Cidade (02)
@@ -281,6 +328,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_1);
@@ -288,6 +338,8 @@ printf ("Código da carta: C02 %s \n", codigo);
 printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 2° País - Estado C - 3° Cidade (03)
@@ -307,6 +359,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_1);
@@ -314,6 +369,8 @@ printf ("Código da carta: C03 %s \n", codigo);
 printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 2° País - Estado C - 4° Cidade (04)
@@ -333,6 +390,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_1);
@@ -341,6 +401,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 // FINAL DO TERCEIRO ESTADO
 
@@ -362,6 +424,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_1);
@@ -370,6 +435,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3f \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 2° País - Estado D - 2° Cidade (02)
@@ -389,6 +456,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("Países: %s \n", pais_1);
@@ -397,6 +467,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 2° País - Estado D - 3° Cidade (03)
@@ -416,6 +488,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("Países: %s \n", pais_1);
@@ -424,6 +499,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 2° País - Estado D - 4° Cidade (04)
@@ -443,6 +520,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_1);
@@ -451,6 +531,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3f \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 // FINAL DO QUARTO ESTADO
 
@@ -472,6 +554,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_2);
@@ -480,6 +565,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 3° País - Estado E - 2° Cidade (02)
@@ -499,6 +586,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_2);
@@ -507,6 +597,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3f \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 3° País - Estado E - 3° Cidade (03)
@@ -526,6 +618,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_2);
@@ -534,6 +629,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 3° País - Estado E - 4° Cidade (04)
@@ -553,6 +650,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_2);
@@ -561,6 +661,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 // FINAL DO QUINTO ESTADO
 
@@ -582,6 +684,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_2);
@@ -590,6 +695,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 3° País - Estado F - 2° Cidade (02)
@@ -609,6 +716,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_2);
@@ -617,6 +727,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 3° País - Estado F - 3° Cidade (03)
@@ -636,6 +748,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_2);
@@ -644,6 +759,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 3° País - Estado F - 4° Cidade (04)
@@ -663,6 +780,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_2);
@@ -671,6 +791,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 // FINAL DO SEXTO ESTADO
 
@@ -692,6 +814,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_3);
@@ -700,6 +825,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 
@@ -720,6 +847,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_3);
@@ -728,6 +858,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 4° País - Estado G - 3° Cidade (03)
@@ -747,6 +879,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_3);
@@ -755,6 +890,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3f \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 4° País - Estado G - 4° Cidade (04)
@@ -774,6 +911,9 @@ scanf ("%lf", &pib);
 printf ("Pontos turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_3);
@@ -782,6 +922,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 // FINAL DO SÉTIMO ESTADO
 
@@ -803,6 +945,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_3);
@@ -811,6 +956,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 4° País - Estado H - 2° Cidade (02)
@@ -830,6 +977,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("Pais: %s \n", pais_3);
@@ -838,6 +988,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 4° País - Estado H - 3° Cidade (03)
@@ -857,6 +1009,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_3);
@@ -865,6 +1020,8 @@ printf ("População: %.3f \n", populacao);
 printf ("Área: %.0f km² \n ", area);
 printf ("PIB: R$ %.3lf \n ", pib);
 printf ("Pontos Turísticos: %.0f \n ", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 
 // 4° País - Estado H - 4° Cidade (04)
@@ -884,6 +1041,9 @@ scanf ("%lf", &pib);
 printf ("Pontos Turísticos: ");
 scanf ("%f", &turismo);
 
+pibPercapita = pib / populacao; // Cálculo PIB percapita = PIB dividido pela população
+densidade = populacao / area; // Cálculo da Densidade = população dividida pela área
+
 // Exibe as informações digitadas pelo usuário
 printf ("\n");
 printf ("País: %s \n", pais_3);
@@ -892,20 +1052,13 @@ printf ("População: %.3f \n", populacao);
 printf ("Area: %.0f km² \n", area);
 printf ("PIB: R$ %.3lf \n ", pib);
 printf ("Pontos Turísticos: %.0f \n", turismo);
+printf ("PIB per capita: %f \n", pibPercapita);
+printf ("Densidade: %f \n", densidade);
 printf ("\n");
 // FINAL DO OITAVO ESTADO
 
 
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, poulação, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+
 
     return 0;
     
