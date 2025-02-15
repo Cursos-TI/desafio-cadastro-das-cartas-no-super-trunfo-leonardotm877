@@ -94,8 +94,6 @@ printf ("Super Poder: %s venceu \n", (super_poder1 > super_poder2) ? "Brasil" : 
 printf ("Densidade Populacional: %s venceu \n", (densidade1 < densidade2) ? "Brasil" : "EUA");
 printf ("PIB per capita: %s venceu \n", (pibPercapita1 > pibPercapita2) ? "Brasil" : "EUA");
 
+return 0;
 
-
-    return 0;
-    
 }
